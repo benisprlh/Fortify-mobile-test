@@ -1,0 +1,19 @@
+{
+  "App": {
+    "dbConfig": {
+      "host": "mongodb",
+      "port": 27017,
+      "user": "iwa",
+      "password": "iwa",
+      "database": "iwa"
+    },
+    "apiConfig": {
+      "url": "https://iwa-api.onfortify.com",
+      "version": "v1",
+      "description": "Production server"
+    },
+    "jwtSecret": "changeme",
+    "jwtExpiration": 36000,
+    "encryptionKey": "lakdsljkalkjlksdfkl"
+  }
+}

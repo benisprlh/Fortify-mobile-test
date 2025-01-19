@@ -1,0 +1,28 @@
+{
+  "App": {
+    "name": "IWA-API",
+    "version": "1.0",
+    "description": "IWA-API - An insecure Node/Express REST API for use in Fortify demonstrations.",
+    "port":  3000,
+    "dbConfig": {
+      "host": "127.0.0.1",
+      "port": 27017,
+      "user": "iwa-dev",
+      "password": "iwa-dev",
+      "database": "iwa-dev"
+    },
+    "auth0": {
+      "domain": "https://dev-ahui5f878pgtbrpr.us.auth0.com",
+      "audience": "https://iwa-api.onfortify.com"
+    },
+    "apiConfig": {
+      "url": "http://localhost:3000",
+      "version": "v1",
+      "description": "Development server"
+    },
+    "staticAccessToken": "demo-access-token",
+    "jwtSecret": "changeme",
+    "jwtExpiration": 36000,
+    "encryptionKey": "lakdsljkalkjlksdfkl"
+  }
+}
